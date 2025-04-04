@@ -221,58 +221,6 @@
                   "new": false,
                   "number": 5,
                   "score": ""
-                },
-                {
-                  "id": "9b5b3185-74a6-42c2-8009-bc4a9d50550c",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 6,
-                  "score": ""
-                },
-                {
-                  "id": "4242ed16-3ecb-410a-b84a-b316d3af9114",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 7,
-                  "score": ""
-                },
-                {
-                  "id": "9dad72b1-1c33-46a0-a900-63058f8fdd30",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 10,
-                  "score": ""
-                },
-                {
-                  "id": "27cf97bc-65fc-4f5f-b328-65eb5cadfef0",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 14,
-                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -554,19 +502,6 @@
                   "score": ""
                 },
                 {
-                  "id": "5748a3fa-0cf2-408f-920e-99c0a6438f22",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Information disclosure",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 3,
-                  "score": ""
-                },
-                {
                   "id": "1b2edc00-95c3-4a4b-a293-f5f410d7100e",
                   "title": "Eavesdropping on Phone Calls",
                   "status": "Open",
@@ -590,32 +525,6 @@
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 9,
-                  "score": ""
-                },
-                {
-                  "id": "4d155b20-7a05-4ad4-af6b-8d5ed932954f",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Tampering",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 13,
-                  "score": ""
-                },
-                {
-                  "id": "b597bdd8-e730-48ad-a49a-93a8f654007c",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Tampering",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 19,
                   "score": ""
                 }
               ],
@@ -773,6 +682,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -856,7 +766,6 @@
               ]
             },
             "id": "445505bc-647d-4f03-9d47-867ec65af76d",
-            "zIndex": 11,
             "data": {
               "type": "tm.Process",
               "name": "ms office",
@@ -892,6 +801,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -975,7 +885,6 @@
               ]
             },
             "id": "7bf4af6d-1c3b-4a66-8fa6-993bee2cd36c",
-            "zIndex": 13,
             "data": {
               "type": "tm.Process",
               "name": "office wifi",
@@ -1011,6 +920,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -1094,7 +1004,6 @@
               ]
             },
             "id": "a37a272e-e220-49e1-b5e1-46cb932adb1b",
-            "zIndex": 14,
             "data": {
               "type": "tm.Actor",
               "name": "worker in \nthe office",
@@ -1130,6 +1039,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 15,
             "ports": {
               "groups": {
                 "top": {
@@ -1213,7 +1123,6 @@
               ]
             },
             "id": "4c7d72c9-fc8e-4541-85e6-b66d1af31365",
-            "zIndex": 15,
             "data": {
               "type": "tm.Store",
               "name": "database",
@@ -1250,6 +1159,7 @@
             },
             "visible": true,
             "shape": "process",
+            "zIndex": 16,
             "ports": {
               "groups": {
                 "top": {
@@ -1333,7 +1243,6 @@
               ]
             },
             "id": "297088a5-07dd-4bfe-9ef2-8d22ac0486d0",
-            "zIndex": 16,
             "data": {
               "type": "tm.Process",
               "name": "internet\nconnection",
@@ -1446,13 +1355,6 @@
                 "denialOfService": 2,
                 "elevationOfPrivilege": 2
               }
-            },
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
             }
           }
         ]

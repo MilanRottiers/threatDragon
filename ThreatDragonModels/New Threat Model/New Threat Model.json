@@ -1423,12 +1423,25 @@
                   "new": false,
                   "number": 21,
                   "score": ""
+                },
+                {
+                  "id": "e800974f-8b20-4246-9a24-c5e7a4a1a710",
+                  "title": "Inability to Trace Activities on Public Wi-Fi",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "the logs on a public wifi might not identify the user enough to know for sure who it is",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 22,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 2,
                 "tampering": 0,
-                "repudiation": 0,
+                "repudiation": 1,
                 "informationDisclosure": 0,
                 "denialOfService": 2,
                 "elevationOfPrivilege": 2
@@ -1447,6 +1460,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 21
+    "threatTop": 22
   }
 }

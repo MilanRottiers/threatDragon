@@ -106,7 +106,7 @@
             },
             "attrs": {
               "text": {
-                "text": "internet user"
+                "text": "remote worker"
               },
               "body": {
                 "stroke": "#333333",
@@ -202,7 +202,7 @@
             "id": "79b98f35-ed48-4cdc-acad-1fe596ea438c",
             "data": {
               "type": "tm.Actor",
-              "name": "internet user",
+              "name": "remote worker",
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",

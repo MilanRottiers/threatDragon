@@ -97,8 +97,8 @@
           },
           {
             "position": {
-              "x": -470,
-              "y": 470
+              "x": -425,
+              "y": 480
             },
             "size": {
               "width": 150,
@@ -109,8 +109,8 @@
                 "text": "remote worker"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -206,9 +206,79 @@
               "description": "",
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "ea3ad4f8-9022-43f8-9db7-f27f3cc17bee",
+                  "title": "Untraceable Device Misuse",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Repudiation",
+                  "description": "a worker might say someone tampered with their data, but they might not be able to prove it.\n",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "9b5b3185-74a6-42c2-8009-bc4a9d50550c",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 6,
+                  "score": ""
+                },
+                {
+                  "id": "4242ed16-3ecb-410a-b84a-b316d3af9114",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 7,
+                  "score": ""
+                },
+                {
+                  "id": "9dad72b1-1c33-46a0-a900-63058f8fdd30",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 10,
+                  "score": ""
+                },
+                {
+                  "id": "27cf97bc-65fc-4f5f-b328-65eb5cadfef0",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 14,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "repudiation": 1
+              }
             }
           },
           {
@@ -341,7 +411,13 @@
             "target": {
               "x": 950,
               "y": 260
-            }
+            },
+            "vertices": [
+              {
+                "x": 570,
+                "y": 180
+              }
+            ]
           },
           {
             "shape": "flow",
@@ -489,12 +565,64 @@
                   "new": true,
                   "number": 3,
                   "score": ""
+                },
+                {
+                  "id": "1b2edc00-95c3-4a4b-a293-f5f410d7100e",
+                  "title": "Eavesdropping on Phone Calls",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "someone might listen to a work related phone call made by the worker.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                },
+                {
+                  "id": "6a972b26-8d28-4167-b975-f5b3894c2021",
+                  "title": "read documents",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "someone might look over the worker's shoulder and read documents that shouldn't be shared.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                },
+                {
+                  "id": "4d155b20-7a05-4ad4-af6b-8d5ed932954f",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 13,
+                  "score": ""
+                },
+                {
+                  "id": "b597bdd8-e730-48ad-a49a-93a8f654007c",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 19,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "tampering": 1,
-                "informationDisclosure": 0,
-                "denialOfService": 0
+                "informationDisclosure": 2,
+                "denialOfService": 1
               }
             },
             "labels": [
@@ -509,12 +637,125 @@
               "cell": "297088a5-07dd-4bfe-9ef2-8d22ac0486d0",
               "port": "e94d6e0a-8bcd-4c68-a4c8-93f1f9899432"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": -280,
+                "y": 460
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Data Flow",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [
+                {
+                  "id": "5251e5b6-c25c-4526-8a44-393973010ba6",
+                  "title": "man in the middle",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "an attacker might intercept communication between the worker and ms office and alter the data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                },
+                {
+                  "id": "0073d24e-ab4c-4a91-922a-ca6a7a96118c",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 16,
+                  "score": ""
+                },
+                {
+                  "id": "c4863420-c194-41f0-96c7-c667407726bd",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 20,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 1,
+                "informationDisclosure": 0,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Data Flow"
+            ],
+            "id": "b0445633-8617-4256-b47f-b1c24c8965b6",
+            "source": {
+              "cell": "445505bc-647d-4f03-9d47-867ec65af76d",
+              "port": "e85725d0-fe93-4317-b08c-66f5e1e4e91a"
+            },
+            "target": {
+              "cell": "297088a5-07dd-4bfe-9ef2-8d22ac0486d0",
+              "port": "3a2f3e2c-4b06-4445-ad38-2c677332ae21"
+            },
+            "vertices": [
+              {
+                "x": 226,
+                "y": 130
+              },
+              {
+                "x": 100,
+                "y": 270
+              },
+              {
+                "x": 30,
+                "y": 330
+              },
+              {
+                "x": -70,
+                "y": 380
+              }
+            ]
           },
           {
             "position": {
-              "x": 226,
-              "y": 80.00000000000153
+              "x": 256,
+              "y": 60.00000000000182
             },
             "size": {
               "width": 60,
@@ -628,50 +869,6 @@
               "isWebApplication": false,
               "privilegeLevel": "",
               "threats": []
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 12,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "65134f43-016b-4d73-802b-576c27258c05",
-            "source": {
-              "x": -210,
-              "y": 400
-            },
-            "target": {
-              "cell": "445505bc-647d-4f03-9d47-867ec65af76d",
-              "port": "e85725d0-fe93-4317-b08c-66f5e1e4e91a"
             }
           },
           {
@@ -1161,16 +1358,88 @@
                   "new": false,
                   "number": 1,
                   "score": ""
+                },
+                {
+                  "id": "95a0c1da-5c25-4058-b613-5ee707858062",
+                  "title": "no internet connection",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "the worker might be somewhere where there's no internet connection and might not be able to work.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                },
+                {
+                  "id": "4aee01bb-f16a-4578-ba52-5d0c82d89a22",
+                  "title": "laptop battery dead",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Denial of service",
+                  "description": "the worker's laptop battery might be dead and they might not be able to work.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                },
+                {
+                  "id": "015a60d6-2432-4647-ac42-0d9ca10f8170",
+                  "title": "Unauthorized Device Control via Bluetooth",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "someone might be able to control the laptop by a bluetooth connection",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                },
+                {
+                  "id": "9b5aa3d2-a8f2-405a-9b5d-fe4aed1efaab",
+                  "title": "Spoofing of Corporate Email Addresses",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "someone might impersonate the company's email and send the worker misinformation or try to get their data",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                },
+                {
+                  "id": "a66ca552-3000-4d15-9704-80e5eef6ca73",
+                  "title": "Exploiting Misconfigured Device Permissions",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "an attacker might take advantage of device permissions to get access to the worker's data",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 2,
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
-                "denialOfService": 0,
-                "elevationOfPrivilege": 0
+                "denialOfService": 2,
+                "elevationOfPrivilege": 2
               }
+            },
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
             }
           }
         ]
@@ -1178,6 +1447,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 3
+    "threatTop": 21
   }
 }
